@@ -1,0 +1,71 @@
+.header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.header div h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.header > div h2 {
+    padding: 0 20px;
+}
+
+.game {
+    margin-top: 30px;
+}
+
+.padding {
+    padding: 0 30px;
+}
+
+.game ul li {
+    border: 1px solid #000;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 3px;
+}
+
+.game ul li.select {
+    background-color: #00CC00;
+}
+
+.footer button {
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+}
+
+.footer #start {
+    text-align: right;
+}
+
+.footer #reset {
+    padding-left: 0px;
+    left: 3px;
+}
+
+small#message {
+    position: absolute;
+    top: 45px;
+    width: 200px;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+/* .header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+} */
